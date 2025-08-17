@@ -241,92 +241,20 @@
     "featured_product_WWRwDP": {
       "type": "featured-product",
       "blocks": {
-        "vendor_eYDVeJ": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title_ttFqMG": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
           }
-        },
-        "badges_NEUzbV": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price_d4njfb": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating_GhHgRQ": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_Ap4BhJ": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description_Ra3BPe": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "variant_picker_EnQFER": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_hK7xfH": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_VpbJHf": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_4xpTT4": {
-          "type": "pickup_availability",
-          "settings": {}
         }
       },
       "block_order": [
-        "vendor_eYDVeJ",
-        "title_ttFqMG",
-        "badges_NEUzbV",
-        "price_d4njfb",
-        "rating_GhHgRQ",
-        "separator_Ap4BhJ",
-        "description_Ra3BPe",
-        "variant_picker_EnQFER",
-        "quantity_selector_hK7xfH",
-        "buy_buttons_VpbJHf",
-        "pickup_availability_4xpTT4"
+        "title_ttFqMG"
       ],
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "",
+        "product": "airon-pro®-souffleur-ultra-leger-puissant",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
