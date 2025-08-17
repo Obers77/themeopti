@@ -185,6 +185,7 @@
         "item_RP4Jw3": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-08-17_231852.png",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
@@ -197,6 +198,7 @@
         "item_YYGBwX": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-08-17_234118.png",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
