@@ -81,20 +81,6 @@
     },
     "rich_text_3GmFrd": {
       "type": "rich-text",
-      "blocks": {
-        "heading_HaeJq9": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_HaeJq9"
-      ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
