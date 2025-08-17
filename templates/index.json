@@ -86,6 +86,20 @@
     },
     "rich_text_3GmFrd": {
       "type": "rich-text",
+      "blocks": {
+        "heading_7aPDtM": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir le Souffleur AIRON PRO ?",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7aPDtM"
+      ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
