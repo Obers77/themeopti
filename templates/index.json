@@ -220,12 +220,26 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_xt3kyW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
         "item_RP4Jw3",
         "item_YYGBwX",
-        "item_md4PUE"
+        "item_md4PUE",
+        "item_xt3kyW"
       ],
       "name": "Multi-column",
       "settings": {
