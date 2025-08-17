@@ -208,6 +208,19 @@
             "link_style": "link"
           }
         },
+        "item_md4PUE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-08-17_234523.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_8kdWD9": {
           "type": "item",
           "settings": {
@@ -224,6 +237,7 @@
       "block_order": [
         "item_RP4Jw3",
         "item_YYGBwX",
+        "item_md4PUE",
         "item_8kdWD9"
       ],
       "name": "Multi-column",
