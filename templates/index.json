@@ -54,21 +54,13 @@
             "logo_width": 120,
             "link": ""
           }
-        },
-        "logo_p8rDeQ": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
         }
       },
       "block_order": [
         "logo_pXFN8t",
         "logo_YNzENf",
         "logo_JmgCqa",
-        "logo_R9mMKb",
-        "logo_p8rDeQ"
+        "logo_R9mMKb"
       ],
       "name": "Logo list",
       "settings": {
