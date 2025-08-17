@@ -320,7 +320,7 @@
         "liquid_D4mqt4": {
           "type": "liquid",
           "settings": {
-            "liquid": "{%- liquid \n  assign padding_horizontal = section.settings.padding_horizontal\n  assign padding_horizontal_mobile = section.settings.padding_horizontal_mobile\n  assign padding_top = section.settings.padding_top\n  assign padding_bottom = section.settings.padding_bottom\n  assign border_color = section.settings.border_color\n  assign border_thickness = section.settings.border_thickness\n  assign margin_top = section.settings.margin_top\n  assign margin_bottom = section.settings.margin_bottom\n  assign background_color = section.settings.background_color\n  assign background_gradient = section.settings.background_gradient\n  assign lazy = section.settings.lazy\n\n  assign guide_position = section.settings.guide_position\n\n  assign toggle = section.settings.toggle\n  assign toggle_size = section.settings.toggle_size\n  assign toggle_size_mobile = section.settings.toggle_size_mobile\n  assign toggle_color = section.settings.toggle_color\n  assign toggle_hover_color = section.settings.toggle_hover_color\n  assign toggle_custom = section.settings.toggle_custom\n  assign toggle_font = section.settings.toggle_font\n  assign toggle_height = section.settings.toggle_height\n  assign toggle_align = section.settings.toggle_align\n  assign toggle_align_mobile = section.settings.toggle_align_mobile\n\n  assign icon = section.settings.icon\n  assign icon_size_mobile = section.settings.icon_size_mobile\n  assign icon_size = section.settings.icon_size\n\n  assign modal_padding_horizontal = section.settings.modal_padding_horizontal\n  assign modal_padding_horizontal_mobile = section.settings.modal_padding_horizontal_mobile\n  assign modal_padding_vertical = section.settings.modal_padding_vertical\n  assign modal_padding_vertical_mobile = section.settings.modal_padding_vertical_mobile\n  assign modal_radius = section.settings.modal_radius\n  assign modal_border_thickness = section.settings.modal_border_thickness\n  assign modal_width = section.settings.modal_width\n  assign modal_width_mobile = section.settings.modal_width_mobile\n  assign modal_overlay = section.settings.modal_overlay\n  assign modal_overlay_color = section.settings.modal_overlay_color\n  assign modal_border_color = section.settings.modal_border_color\n  assign modal_bg_color = section.settings.modal_bg_color\n\n  assign close_icon_size = section.settings.close_icon_size\n  assign close_icon_size_mobile = section.settings.close_icon_size_mobile\n  assign close_icon_color = section.settings.close_icon_color\n\n  assign toggles_border_color = section.settings.toggles_border_color\n  assign toggles_border_thickness = section.settings.toggles_border_thickness\n\n  assign title_padding_vertical_mobile = section.settings.title_padding_vertical_mobile\n  assign title_padding_vertical = section.settings.title_padding_vertical\n  assign title_padding_horizontal_mobile = section.settings.title_padding_horizontal_mobile\n  assign title_padding_horizontal = section.settings.title_padding_horizontal\n  assign title_border_thickness = section.settings.title_border_thickness\n  assign title_border_color = section.settings.title_border_color\n  assign title_bg_color = section.settings.title_bg_color\n  assign title_border_hover_color = section.settings.title_border_hover_color\n  assign title_bg_hover_color = section.settings.title_bg_hover_color\n  assign title_border_active_color = section.settings.title_border_active_color\n  assign title_bg_active_color = section.settings.title_bg_active_color\n  assign title_size = section.settings.title_size\n  assign title_size_mobile = section.settings.title_size_mobile\n  assign title_color = section.settings.title_color\n  assign title_hover_color = section.settings.title_hover_color\n  assign title_active_color = section.settings.title_active_color\n  assign title_custom = section.settings.title_custom\n  assign title_font = section.settings.title_font\n  assign title_height = section.settings.title_height\n\n  assign tab_gap_mobile = section.settings.tab_gap_mobile\n  assign tab_gap = section.settings.tab_gap\n  assign tab_mt_mobile = section.settings.tab_mt_mobile\n  assign tab_mt = section.settings.tab_mt\n\n  assign text_size = section.settings.text_size\n  assign text_size_mobile = section.settings.text_size_mobile\n  assign text_color = section.settings.text_color\n  assign text_custom = section.settings.text_custom\n  assign text_font = section.settings.text_font\n  assign text_height = section.settings.text_height\n  assign text_align = section.settings.text_align\n  assign text_align_mobile = section.settings.text_align_mobile  \n-%}\n\n{%- style -%}\n\n  {{ toggle_font | font_face: font_display: 'swap' }}\n  {{ title_font | font_face: font_display: 'swap' }}\n  {{ text_font | font_face: font_display: 'swap' }}\n  \n  .section-{{ section.id }} {\n    border-top: solid {{ border_color }} {{ border_thickness }}px;\n    border-bottom: solid {{ border_color }} {{ border_thickness }}px;\n    margin-top: {{ margin_top | times: 0.75 | round: 0 }}px !important;\n    margin-bottom: {{ margin_bottom | times: 0.75 | round: 0 }}px !important;\n  }\n  \n  .section-{{ section.id }}-settings {\n    margin: 0 auto;\n    padding-top: {{ padding_top | times: 0.75 | round: 0 }}px;\n    padding-bottom: {{ padding_bottom | times: 0.75 | round: 0 }}px;\n    padding-left: {{ padding_horizontal_mobile }}rem;\n    padding-right: {{ padding_horizontal_mobile }}rem;\n    position: relative;\n  }\n\n  .size-toggle-{{ section.id }} {\n    display: flex;\n    align-items: center;\n    gap: 5px;\n    max-width: fit-content;\n    cursor: pointer;\n  }\n\n  .size-toggle-{{ section.id }} * {\n    margin: 0px;\n    font-size: {{ toggle_size_mobile }}px;\n    color: {{ toggle_color }};\n    line-height: {{ toggle_height }}%;\n    text-transform: unset;\n    font-weight: 700;\n    transition: all 0.25s ease 0s;\n  }\n\n  .size-toggle-{{ section.id }}:hover * {\n    transition: all 0.25s ease 0s;\n    color: {{ toggle_hover_color }};\n  }\n\n  .size-toggle-icon-{{ section.id }} {\n    flex: 0 0 {{ icon_size_mobile }}px;\n  }\n\n  .size-toggle-icon-{{ section.id }} img,\n  .size-toggle-icon-{{ section.id }} svg {\n    display: block;\n    width: {{ icon_size_mobile }}px;\n    height: 100%;\n    object-fit: cover;\n  }\n\n  .size-toggle-icon-{{ section.id }} svg path {\n    transition: all 0.25s ease 0s;\n    stroke: {{ toggle_color }};\n  }\n\n  .size-toggle{{ section.id }}:hover .size-toggle-icon-{{ section.id }} svg path {\n    transition: all 0.25s ease 0s;\n    stroke: {{ toggle_hover_color }};\n  }\n\n  .size-modal-{{ section.id }} {\n    width: 100vw;\n    height: 100vh;\n    top: 0;\n    left: 0;\n    position: fixed;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    opacity: 0;\n    overflow: hidden;\n    overflow-y: scroll;\n    pointer-events: none;\n    background: {{ modal_overlay_color | hex_to_rgba: modal_overlay }};\n    padding: 10px;\n  }\n\n  .size-modal-{{ section.id }}.active {\n    opacity: 1;\n    z-index: 100;\n    pointer-events: all;\n    transition: all 250ms ease-in 0s;\n  }\n\n  .size-modal-inner-{{ section.id }} {\n    position: relative;\n    width: 100%;\n    max-height: 96vh;\n    height: 100%;\n    padding: {{ modal_padding_vertical_mobile }}px {{ modal_padding_horizontal_mobile }}px;\n    border: {{ modal_border_thickness }}px solid {{ modal_border_color }};\n    background-color: {{ modal_bg_color }};\n    border-radius: {{ modal_radius }}px;\n    max-width: {{ modal_width_mobile }}%;\n    overflow-y: auto;\n    scrollbar-width: none;\n    -ms-overflow-style: none;\n  }\n\n  .size-modal-inner-{{ section.id }}::-webkit-scrollbar {\n    display: none;\n  }\n\n  .size-modal-toggles-{{ section.id }} {\n    display: flex;\n    align-items: stretch;\n    flex-wrap: nowrap;\n    overflow-x: auto;\n  }\n\n  .size-modal-toggle-{{ section.id }} {\n    background: transparent;\n    border: 0px;\n    box-shadow: none;\n    margin: 0px;\n    font-size: {{ title_size_mobile }}px;\n    color: {{ title_color }};\n    line-height: {{ title_height }}%;\n    text-transform: unset;\n    padding: {{ title_padding_vertical_mobile }}px {{ title_padding_horizontal_mobile }}px;\n    border: {{ title_border_thickness }}px solid {{ title_border_color }};\n    background-color: {{ title_bg_color }};\n    transition: all 0.25s ease 0s;\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .size-modal-toggle-{{ section.id }}:not(:first-child) {\n    border-left: 0px !important;\n  }\n\n  .size-modal-toggle-{{ section.id }}:hover {\n    transition: all 0.25s ease 0s;\n    border-color: {{ title_border_hover_color }};\n    background-color: {{ title_bg_hover_color }};\n    color: {{ title_hover_color }};\n  }\n\n  .size-modal-toggle-{{ section.id }}.active {\n    transition: all 0.25s ease 0s;\n    border: {{ title_border_thickness }}px solid {{ title_border_active_color }};\n    background-color: {{ title_bg_active_color }};\n    color: {{ title_active_color }};\n    border-bottom: {{ title_border_thickness }}px solid {{ modal_bg_color }};\n    font-weight: 700;\n    border-bottom-left-radius: 0px;\n    border-bottom-right-radius: 0px;\n  }\n\n  .size-modal-tabs-{{ section.id }} {\n    margin-top: 10px;\n  }\n\n  .size-modal-tab-{{ section.id }} {\n    display: none;\n    align-items: start;\n    flex-direction: column;\n    gap: {{ tab_gap_mobile }}px;\n    margin-top: {{ tab_mt_mobile }}px;\n    overflow-x: auto;\n    padding: 2px;\n  }\n\n  .size-modal-tab-{{ section.id }}.active {\n    display: flex;\n  }\n\n  .size-modal-image-{{ section.id }} {\n    flex: 1 0;\n  }\n\n  .size-modal-image-{{ section.id }} img,\n  .size-modal-image-{{ section.id }} svg {\n    display: block;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n  }\n\n  .size-modal-image-{{ section.id }} svg {\n    /* Tu peux ajouter ici des styles pour les SVG si nécessaire */\n  }\n\n{%- endstyle -%}"
+            "liquid": "<div id='ss-product-videos'></div>"
           }
         }
       },
@@ -350,6 +350,170 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "productvideo_GdterM": {
+      "type": "productvideo",
+      "blocks": {
+        "video_nbd34n": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_Ech7CK": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_TeQBQh": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_xqpinP": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_BqGpeP": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        }
+      },
+      "block_order": [
+        "video_nbd34n",
+        "video_Ech7CK",
+        "video_TeQBQh",
+        "video_xqpinP",
+        "video_BqGpeP"
+      ],
+      "name": "SS - Product Videos",
+      "settings": {
+        "videos_position": "above_description",
+        "use_metafield": false,
+        "heading": "<h2>WHAT OUR FELLOWS SAY</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "slider_view": 3,
+        "slider_view_mobile": 3,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "slider_mt": 20,
+        "card_radius": 10,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "portrait",
+        "video_overlay": 0.3,
+        "icon_size": 34,
+        "icon_size_mobile": 34,
+        "icon_border_thickness": 1,
+        "icon_position_mobile": "bottom_left",
+        "icon_position": "bottom_left",
+        "hide_icon": false,
+        "arrow_size": 35,
+        "arrow_size_mobile": 35,
+        "arrow_radius": 5,
+        "arrow_border_thickness": 0,
+        "arrow_hover_shadow": true,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "show_content": false,
+        "modal_width": 30,
+        "modal_width_mobile": 95,
+        "modal_padding_vertical": 0,
+        "modal_padding_vertical_mobile": 0,
+        "modal_padding_horizontal": 0,
+        "modal_padding_horizontal_mobile": 0,
+        "modal_radius": 16,
+        "modal_border_thickness": 0,
+        "modal_overlay": 50,
+        "close_size": 42,
+        "close_size_mobile": 42,
+        "close_radius": 8,
+        "close_border_thickness": 0,
+        "buttons_size": 48,
+        "buttons_size_mobile": 48,
+        "buttons_radius": 8,
+        "buttons_border_thickness": 0,
+        "modal_video_radius": 0,
+        "modal_video_border_thickness": 0,
+        "modal_video_ratio": "portrait",
+        "modal_video_ratio_mobile": "portrait",
+        "modal_heading_custom": false,
+        "modal_heading_font": "josefin_sans_n4",
+        "modal_heading_size": 28,
+        "modal_heading_size_mobile": 28,
+        "modal_heading_height": 130,
+        "modal_heading_align": "center",
+        "modal_heading_align_mobile": "center",
+        "modal_text_custom": false,
+        "modal_text_font": "josefin_sans_n4",
+        "modal_text_size": 16,
+        "modal_text_size_mobile": 16,
+        "modal_text_height": 130,
+        "modal_text_align": "center",
+        "modal_text_align_mobile": "center",
+        "modal_text_mt": 16,
+        "card_bg_color": "#FFFFFF",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "video_overlay_color": "#000000",
+        "icon_bg_color": "#000000",
+        "icon_border_color": "#FFFFFF",
+        "icon_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "arrow_icon_color": "#1c1c1c",
+        "arrow_icon_hover_color": "#1c1c1c",
+        "modal_bg_color": "#FFFFFF",
+        "modal_border_color": "#000000",
+        "close_bg_color": "#FFFFFF",
+        "close_border_color": "#000000",
+        "close_icon_color": "#FFFFFF",
+        "buttons_bg_color": "#FFFFFF",
+        "buttons_border_color": "#000000",
+        "buttons_icon_color": "#FFFFFF",
+        "modal_video_border_color": "#000000",
+        "modal_content_bg_color": "#FFFFFF",
+        "modal_content_border_color": "#000000",
+        "modal_heading_color": "#000000",
+        "modal_text_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "tabs_LbzkeK": {
@@ -464,6 +628,7 @@
     "custom_liquid_zA4Dza",
     "multi_column_jAVWpX",
     "featured_product_WWRwDP",
+    "productvideo_GdterM",
     "tabs_LbzkeK",
     "faq_bYyD9M"
   ]
