@@ -309,6 +309,14 @@
             "payment_button_text_color": ""
           }
         },
+        "image_NEUTeN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_13.png",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
         "liquid_D4mqt4": {
           "type": "liquid",
           "settings": {
@@ -322,6 +330,7 @@
         "liquid_kDARrr",
         "kaching_bundles_app_block_xzV87P",
         "buy_buttons_NRPmim",
+        "image_NEUTeN",
         "liquid_D4mqt4"
       ],
       "name": "Featured product",
@@ -365,7 +374,7 @@
         "tab_WWCkVt": {
           "type": "tab",
           "settings": {
-            "title": "Tab 3",
+            "title": "QUESTIONS FRÉQUENTES",
             "content": "<p><strong>Le Airon Pro est-il aussi puissant qu’un souffleur thermique ?</strong></p><p>Oui, il atteint les 320 km/h, largement suffisant pour la plupart des tâches du quotidien, sans le poids ni l’entretien d’un modèle à essence.</p><p> </p><p><strong>Est-il adapté aux femmes, aux seniors ou aux débutants ?</strong></p><p>Oui, il est ultra léger, facile à manier, et ne demande ni force ni expérience.</p><p> </p><p><strong>Puis-je l’utiliser en intérieur (garage, maison, atelier) sans tout faire voler ?</strong></p><p>Oui, le flux d’air est précis et maîtrisé, parfait pour les zones étroites ou sensibles.</p><p> </p><p><strong>Est-ce qu’il sert uniquement à souffler les feuilles en automne ?</strong></p><p>Non, il est utile toute l’année. En hiver, il peut dégivrer un pare-brise ou enlever la neige. En été, il sèche la voiture, souffle la poussière du garage ou nettoie la terrasse après la tonte.</p><p> </p><p><strong>Est-il étanche ou résistant à la pluie ?</strong></p><p>Il supporte l’humidité et le froid, mais ne doit pas être utilisé sous une pluie battante..</p>",
             "page": ""
           }
