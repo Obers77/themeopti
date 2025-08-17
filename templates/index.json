@@ -31,6 +31,7 @@
         "logo_pXFN8t": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/a.png",
             "logo_width": 120,
             "link": ""
           }
@@ -38,7 +39,8 @@
         "logo_YNzENf": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/RTL_logo_svg.png",
+            "logo_width": 80,
             "link": ""
           }
         },
