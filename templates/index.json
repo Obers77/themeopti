@@ -47,6 +47,7 @@
         "logo_JmgCqa": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/026_Le_Figaro_logo.png",
             "logo_width": 120,
             "link": ""
           }
@@ -54,6 +55,7 @@
         "logo_R9mMKb": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/024_00186.png",
             "logo_width": 120,
             "link": ""
           }
