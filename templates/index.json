@@ -11,6 +11,18 @@
   "sections": {
     "video_bLe4NA": {
       "type": "video",
+      "blocks": {
+        "heading_NQHMWF": {
+          "type": "heading",
+          "settings": {
+            "text": "Nettoyez votre espace en 5 minutes Chrono !",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NQHMWF"
+      ],
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -21,7 +33,7 @@
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 20
       }
     },
     "logo_list_aYXdQf": {
