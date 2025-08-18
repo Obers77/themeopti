@@ -88,6 +88,37 @@
     },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "text_EfMwc4": {
+          "type": "text",
+          "settings": {
+            "title": "Besoin d'aide ?",
+            "content": "<p>Contactez-nous via notre formulaire dans la page <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">Contact </a>ou par e-mail à <strong>contact@aironpro.shop</strong></p><p><strong>Horaires</strong> : Du Lun au Dim de 8h à 12h et de 14h à 20h / Sam et Dim de h à 13h</p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "text_bHxB39": {
+          "type": "text",
+          "settings": {
+            "title": "À PROPOS",
+            "content": "<ul><li><a href=\"/pages/politique-de-confidentialite\" title=\"Politique de Confidentialité\">Politique de confidentialité</a></li><li><a href=\"/pages/politique-de-retour-et-de-remboursement\" title=\"Politique de Retour et de Remboursement\">Politique de remboursement</a></li><li><a href=\"/pages/conditions-generales-de-vente\" title=\"Conditions générales de vente\">Conditions générales de vente</a></li><li><a href=\"/pages/contact\" title=\"Contact\">Contact</a></li><li><a href=\"/pages/mentions-legales\" title=\"Mentions légales\">Mentions légales</a></li></ul>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "text_edktBd": {
+          "type": "text",
+          "settings": {
+            "title": "LIENS UTILES",
+            "content": "<p><a href=\"https://www.sculya.shop/\" title=\"https://www.sculya.shop/\">Sculya™<br/></a></p><p><a href=\"https://www.sculya.shop/apps/parcelpanel\" title=\"https://www.sculya.shop/apps/parcelpanel\">Suivre ma commande</a></p><p><a href=\"/pages/qui-somme-nous\" title=\"Qui sommes nous ?\">Qui sommes-nous ?</a><br/><br/><a href=\"/pages/contact\" title=\"Contact\">Nous contacter</a></p>",
+            "enable_follow_on_shop": false
+          }
+        }
+      },
+      "block_order": [
+        "text_EfMwc4",
+        "text_bHxB39",
+        "text_edktBd"
+      ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
