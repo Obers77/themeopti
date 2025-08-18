@@ -599,6 +599,31 @@
         "text_color": ""
       }
     },
+    "1755508549e86d364d": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_N7bgcF": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "airon-pro®-souffleur-ultra-leger-puissant",
+            "title_text": "",
+            "title_font_tag": "h2",
+            "section_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_N7bgcF"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "slidervideo_R6BCKp": {
       "type": "SLIDERVIDEO",
       "blocks": {
@@ -796,15 +821,15 @@
         "header_before_gradient": "Nos clients",
         "header_gradient": "Adore",
         "header": "le souffleur AIRON PRO™",
-        "header_color": "#0B1128",
+        "header_color": "#0b1128",
         "header_font_size": 42,
         "header_mob_font_size": 28,
         "review_font_size": 16,
-        "review_font_color": "#0B1128",
-        "gradient_color_1": "#4222DE",
-        "gradient_color_2": "#659BFF",
-        "gradient_color_3": "#7FF6E8",
-        "blur_color": "#B8B1DC",
+        "review_font_color": "#0b1128",
+        "gradient_color_1": "#4222de",
+        "gradient_color_2": "#659bff",
+        "gradient_color_3": "#7ff6e8",
+        "blur_color": "#b8b1dc",
         "background-color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
@@ -877,6 +902,7 @@
     "productvideo_GdterM",
     "tabs_LbzkeK",
     "rich_text_BXrJe8",
+    "1755508549e86d364d",
     "slidervideo_R6BCKp",
     "ss_glow_testimonial_dyVtrc",
     "faq_bYyD9M"
