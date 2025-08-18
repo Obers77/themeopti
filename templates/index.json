@@ -628,12 +628,22 @@
             "title": "",
             "stars_count": 5
           }
+        },
+        "slide_MWTxgU": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/ugc4.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 5
+          }
         }
       },
       "block_order": [
         "slide_YGdd9L",
         "slide_He8UzL",
-        "slide_qBDNhw"
+        "slide_qBDNhw",
+        "slide_MWTxgU"
       ],
       "name": "SS - Video Slider",
       "settings": {
