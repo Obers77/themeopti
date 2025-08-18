@@ -858,12 +858,20 @@
             "title": "Puis-je l’utiliser à la fois en intérieur et en extérieur ?",
             "content": "<p>Oui — Airon Pro™ a été conçu pour une polyvalence totale. Utilisez-le pour nettoyer l’intérieur de votre voiture, autour de la maison, sur les appareils électroniques, mais aussi à l’extérieur : terrasses, feuilles, grilles d’aération… Il est assez précis pour les zones délicates et assez puissant pour les travaux extérieurs.</p>"
           }
+        },
+        "item_CWxRbA": {
+          "type": "item",
+          "settings": {
+            "title": "Est-il facile à utiliser ou à entretenir ?",
+            "content": "<p>Carrément. Pas de réglages compliqués, pas d’outils, pas d’entretien. Il suffit d’insérer la batterie et d’appuyer sur un bouton. Prêt à l’emploi dès la sortie de la boîte — pas besoin de notice.</p>"
+          }
         }
       },
       "block_order": [
         "item_HabTdG",
         "item_j4EYFD",
-        "item_AD7YFX"
+        "item_AD7YFX",
+        "item_CWxRbA"
       ],
       "name": "FAQ",
       "settings": {
