@@ -668,7 +668,7 @@
         "hide_stars": true,
         "use_action": true,
         "action_size": 40,
-        "action_size_mobile": 20,
+        "action_size_mobile": 40,
         "action_icon_size": 24,
         "action_icon_size_mobile": 24,
         "action_border_thickness": 0,
