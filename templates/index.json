@@ -625,30 +625,12 @@
             "title": "New Slide",
             "stars_count": 5
           }
-        },
-        "slide_wemUEH": {
-          "type": "slide",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
-          }
-        },
-        "slide_b74qxP": {
-          "type": "slide",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
-          }
         }
       },
       "block_order": [
         "slide_YGdd9L",
         "slide_6r6EeH",
-        "slide_cLpdXN",
-        "slide_wemUEH",
-        "slide_b74qxP"
+        "slide_cLpdXN"
       ],
       "name": "SS - Video Slider",
       "settings": {
@@ -680,16 +662,16 @@
         "stars_size_mobile": 16,
         "stars_mt": 16,
         "stars_mt_mobile": 16,
-        "hide_stars": false,
+        "hide_stars": true,
         "use_action": true,
         "action_size": 40,
-        "action_size_mobile": 40,
+        "action_size_mobile": 20,
         "action_icon_size": 24,
         "action_icon_size_mobile": 24,
         "action_border_thickness": 0,
         "use_sound": true,
         "sound_size": 40,
-        "sound_size_mobile": 40,
+        "sound_size_mobile": 20,
         "sound_icon_size": 24,
         "sound_icon_size_mobile": 24,
         "sound_border_thickness": 0,
@@ -730,8 +712,8 @@
         "border_color": "#000000",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "padding_horizontal": 0,
         "padding_horizontal_mobile": 0,
         "full_width": false,
