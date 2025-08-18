@@ -793,9 +793,9 @@
       "settings": {
         "animation_time": 30,
         "loop_amount": 2,
-        "header_before_gradient": "Our customers",
-        "header_gradient": "love",
-        "header": "the product",
+        "header_before_gradient": "Nos clients",
+        "header_gradient": "Adore",
+        "header": "le souffleur AIRON PRO™",
         "header_color": "#0B1128",
         "header_font_size": 42,
         "header_mob_font_size": 28,
