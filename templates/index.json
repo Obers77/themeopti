@@ -766,6 +766,7 @@
         "image_3Qk8UD": {
           "type": "Image",
           "settings": {
+            "review_icon": "shopify://shop_images/city-man-texting.jpg",
             "review_text": "Puissant, léger, et super pratique. Je ne peux plus m’en passer !",
             "review_rating": 5
           }
@@ -773,6 +774,7 @@
         "image_dfXjDV": {
           "type": "Image",
           "settings": {
+            "review_icon": "shopify://shop_images/1922677762_1636383471.jpg",
             "review_text": "Fait le job en un rien de temps. Simple, rapide, efficace.",
             "review_rating": 5
           }
@@ -780,6 +782,7 @@
         "image_eaeJLm": {
           "type": "Image",
           "settings": {
+            "review_icon": "shopify://shop_images/d84e32902fe5946eea8ba31d346f0119.jpg",
             "review_text": "Enfin un souffleur qui tient ses promesses. Top produit !",
             "review_rating": 5
           }
@@ -787,6 +790,7 @@
         "image_BJiC3C": {
           "type": "Image",
           "settings": {
+            "review_icon": "shopify://shop_images/images.jpg",
             "review_text": "Mon meilleur achat de l’année. Je le recommande les yeux fermés.",
             "review_rating": 5
           }
@@ -794,6 +798,7 @@
         "image_6rLqkf": {
           "type": "Image",
           "settings": {
+            "review_icon": "shopify://shop_images/ccf02f0340cf1cfb7a503a912eb0873d7929e4d6.jpg",
             "review_text": "Plus besoin de balai. C’est devenu mon réflexe.",
             "review_rating": 5
           }
