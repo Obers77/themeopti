@@ -11,75 +11,76 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "text-with-icons": {
+    "text_with_icons_Xi8e7c": {
       "type": "text-with-icons",
       "blocks": {
-        "free-shipping": {
+        "item_c66wNe": {
           "type": "item",
           "settings": {
-            "icon": "picto-box",
+            "icon": "picto-return",
             "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
+            "icon_width": 32,
+            "icon_background_type": "circle",
             "icon_background": "#fe6c34",
-            "icon_color": "#fe6c34",
-            "title": "Free shipping",
-            "content": "<p>Tell your customers about your shipping offer.</p>"
+            "icon_color": "#1a1a1a",
+            "title": "Satisfait ou remboursé",
+            "content": ""
           }
         },
-        "customer-support": {
+        "item_8YrMVx": {
           "type": "item",
           "settings": {
-            "icon": "picto-customer-support",
+            "icon": "picto-operator",
             "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#fe6c34",
+            "icon_color": "#1a1a1a",
+            "title": "Service client 7j/7",
+            "content": ""
           }
         },
-        "discount": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
-          }
-        },
-        "payment": {
+        "item_dCFRRQ": {
           "type": "item",
           "settings": {
             "icon": "picto-lock",
             "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#fe6c34",
+            "icon_color": "#1a1a1a",
+            "title": "Paiement sécurisé",
+            "content": ""
+          }
+        },
+        "item_H7pmPU": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#fe6c34",
+            "icon_color": "#1a1a1a",
+            "title": "LIVRAISON OFFERTE À PARTIR DE 30 EUROS",
+            "content": ""
           }
         }
       },
       "block_order": [
-        "free-shipping",
-        "customer-support",
-        "discount",
-        "payment"
+        "item_c66wNe",
+        "item_8YrMVx",
+        "item_dCFRRQ",
+        "item_H7pmPU"
       ],
+      "name": "Text with icons",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "title": "",
-        "heading_tag": "h6",
+        "heading_tag": "h5",
         "text_alignment": "center",
-        "icon_spacing": "small",
+        "icon_spacing": "medium",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -99,7 +100,7 @@
     }
   },
   "order": [
-    "text-with-icons",
+    "text_with_icons_Xi8e7c",
     "footer"
   ]
 }
