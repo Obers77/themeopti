@@ -865,13 +865,29 @@
             "title": "Est-il facile à utiliser ou à entretenir ?",
             "content": "<p>Carrément. Pas de réglages compliqués, pas d’outils, pas d’entretien. Il suffit d’insérer la batterie et d’appuyer sur un bouton. Prêt à l’emploi dès la sortie de la boîte — pas besoin de notice.</p>"
           }
+        },
+        "item_6VHTTV": {
+          "type": "item",
+          "settings": {
+            "title": "Et si je ne l’aime pas ou qu’il ne me convient pas ?",
+            "content": "<p>Aucun stress. Vous êtes couvert par <strong>notre garantie satisfaction 30 jours</strong>. Essayez-le, testez-le : si vous n’êtes pas 100 % satisfait, vous le retournez — sans aucune question.</p>"
+          }
+        },
+        "item_gyGUw9": {
+          "type": "item",
+          "settings": {
+            "title": "Est-il trop petit ou léger pour remplacer mon gros souffleur ?",
+            "content": "<p>C’est tout l’intérêt. Airon Pro™ a été conçu pour <strong>remplacer le volume sans perdre en performance</strong>. Pour 90 % des tâches du quotidien, vous n’aurez plus besoin de votre souffleur lourd et encombrant. Et votre dos vous dira merci.</p>"
+          }
         }
       },
       "block_order": [
         "item_HabTdG",
         "item_j4EYFD",
         "item_AD7YFX",
-        "item_CWxRbA"
+        "item_CWxRbA",
+        "item_6VHTTV",
+        "item_gyGUw9"
       ],
       "name": "FAQ",
       "settings": {
