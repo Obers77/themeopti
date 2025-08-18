@@ -806,6 +806,7 @@
         "image_arRqwF": {
           "type": "Image",
           "settings": {
+            "review_icon": "shopify://shop_images/66806081_4362962830c21d-eef6-4726-9f68-82ff830830e4_ORIGINAL.webp",
             "review_text": "Gain de temps énorme. Je l’utilise tous les jours.",
             "review_rating": 5
           }
@@ -834,7 +835,7 @@
         "gradient_color_1": "#fe6c34",
         "gradient_color_2": "#fc8c62",
         "gradient_color_3": "#febda7",
-        "blur_color": "#febda7",
+        "blur_color": "#ffe2d9",
         "background-color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
@@ -915,6 +916,34 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
+      }
+    },
+    "17555180489e05f310": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_ek4TfC": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_ek4TfC"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "text_with_icons_nc96Pp": {
@@ -1010,6 +1039,7 @@
     "1755508549e86d364d",
     "ss_glow_testimonial_dyVtrc",
     "faq_bYyD9M",
+    "17555180489e05f310",
     "text_with_icons_nc96Pp"
   ]
 }
