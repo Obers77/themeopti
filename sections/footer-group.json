@@ -20,7 +20,7 @@
         "wave_animation": true,
         "wave_rotate": false,
         "wave_color": "#010408",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -57,7 +57,7 @@
           "type": "text",
           "settings": {
             "title": "LIENS UTILES",
-            "content": "<p><a href=\"https://www.sculya.shop/\" title=\"https://www.sculya.shop/\">Sculya™<br/></a></p><p><a href=\"https://www.sculya.shop/apps/parcelpanel\" title=\"https://www.sculya.shop/apps/parcelpanel\">Suivre ma commande</a></p><p><a href=\"/pages/qui-somme-nous\" title=\"Qui sommes nous ?\">Qui sommes-nous ?</a><br/><br/><a href=\"/pages/contact\" title=\"Contact\">Nous contacter</a></p>",
+            "content": "<p><a href=\"https://www.sculya.shop/\" title=\"https://www.sculya.shop/\">Sculya™<br/></a></p><p><a href=\"https://aironpro.shop/apps/parcelpanel\" title=\"https://aironpro.shop/apps/parcelpanel\">Suivre ma commande</a></p><p><a href=\"/pages/qui-somme-nous\" title=\"Qui sommes nous ?\">Qui sommes-nous ?</a><br/><br/><a href=\"/pages/contact\" title=\"Contact\">Nous contacter</a></p>",
             "enable_follow_on_shop": false
           }
         }
