@@ -618,6 +618,39 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "rich_text_BXrJe8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GQCteH": {
+          "type": "heading",
+          "settings": {
+            "text": "DÉJÀ ADOPTÉ DANS LE MONDE ENTIER",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_HdU8cp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>De vraies personnes, de vrais résultats.</strong></p><p>Découvrez comment Airon Pro™ simplifie le nettoyage quotidien aux quatre coins du monde.</p><p>Ils sont passés à l’action, pourquoi pas vous ?</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GQCteH",
+        "richtext_HdU8cp"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -632,6 +665,7 @@
     "featured_product_WWRwDP",
     "productvideo_GdterM",
     "tabs_LbzkeK",
-    "faq_bYyD9M"
+    "faq_bYyD9M",
+    "rich_text_BXrJe8"
   ]
 }
