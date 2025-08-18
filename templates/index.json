@@ -599,31 +599,6 @@
         "text_color": ""
       }
     },
-    "1755508549e86d364d": {
-      "type": "apps",
-      "blocks": {
-        "pretty_comparison_tables_table_N7bgcF": {
-          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
-          "settings": {
-            "product": "airon-pro®-souffleur-ultra-leger-puissant",
-            "title_text": "",
-            "title_font_tag": "h2",
-            "section_background_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "pretty_comparison_tables_table_N7bgcF"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "slidervideo_R6BCKp": {
       "type": "SLIDERVIDEO",
       "blocks": {
@@ -758,6 +733,31 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "1755508549e86d364d": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_N7bgcF": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "airon-pro®-souffleur-ultra-leger-puissant",
+            "title_text": "",
+            "title_font_tag": "h2",
+            "section_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_N7bgcF"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "ss_glow_testimonial_dyVtrc": {
@@ -902,8 +902,8 @@
     "productvideo_GdterM",
     "tabs_LbzkeK",
     "rich_text_BXrJe8",
-    "1755508549e86d364d",
     "slidervideo_R6BCKp",
+    "1755508549e86d364d",
     "ss_glow_testimonial_dyVtrc",
     "faq_bYyD9M"
   ]
