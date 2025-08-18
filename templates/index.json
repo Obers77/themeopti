@@ -611,27 +611,29 @@
             "stars_count": 5
           }
         },
-        "slide_6r6EeH": {
+        "slide_He8UzL": {
           "type": "slide",
           "settings": {
+            "video": "shopify://files/videos/UGC 1.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
+            "title": "",
             "stars_count": 5
           }
         },
-        "slide_cLpdXN": {
+        "slide_qBDNhw": {
           "type": "slide",
           "settings": {
+            "video": "shopify://files/videos/UGC 1.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
+            "title": "",
             "stars_count": 5
           }
         }
       },
       "block_order": [
         "slide_YGdd9L",
-        "slide_6r6EeH",
-        "slide_cLpdXN"
+        "slide_He8UzL",
+        "slide_qBDNhw"
       ],
       "name": "SS - Video Slider",
       "settings": {
