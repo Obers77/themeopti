@@ -700,27 +700,27 @@
         "card_border_color": "#000000",
         "card_shadow_color": "#000000",
         "card_overlay_color": "#000000",
-        "title_color": "#FFFFFF",
-        "stars_color": "#FFFFFF",
-        "action_color": "#FFFFFF",
-        "action_hover_color": "#FFFFFF",
-        "action_bg_color": "#FFFFFF",
-        "action_bg_hover_color": "#FFFFFF",
-        "action_border_color": "#FFFFFF",
-        "action_border_hover_color": "#FFFFFF",
-        "sound_icon_color": "#FFFFFF",
-        "sound_icon_hover_color": "#FFFFFF",
-        "sound_bg_color": "#FFFFFF",
-        "sound_bg_hover_color": "#FFFFFF",
-        "sound_border_color": "#FFFFFF",
-        "sound_border_hover_color": "#FFFFFF",
-        "arrow_color": "#FFFFFF",
+        "title_color": "#ffffff",
+        "stars_color": "#ffffff",
+        "action_color": "#ffffff",
+        "action_hover_color": "#ffffff",
+        "action_bg_color": "#ffffff",
+        "action_bg_hover_color": "#ffffff",
+        "action_border_color": "#ffffff",
+        "action_border_hover_color": "#ffffff",
+        "sound_icon_color": "#ffffff",
+        "sound_icon_hover_color": "#ffffff",
+        "sound_bg_color": "#ffffff",
+        "sound_bg_hover_color": "#ffffff",
+        "sound_border_color": "#ffffff",
+        "sound_border_hover_color": "#ffffff",
+        "arrow_color": "#ffffff",
         "arrow_hover_color": "#434343",
         "arrow_bg_color": "#434343",
-        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#ffffff",
         "arrow_border_color": "#000000",
         "arrow_border_hover_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -733,6 +733,81 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "ss_glow_testimonial_dyVtrc": {
+      "type": "ss-glow-testimonial",
+      "blocks": {
+        "image_3Qk8UD": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_dfXjDV": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_eaeJLm": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_BJiC3C": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_6rLqkf": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        },
+        "image_arRqwF": {
+          "type": "Image",
+          "settings": {
+            "review_text": "Add awesome customer testimonial right here",
+            "review_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "image_3Qk8UD",
+        "image_dfXjDV",
+        "image_eaeJLm",
+        "image_BJiC3C",
+        "image_6rLqkf",
+        "image_arRqwF"
+      ],
+      "name": "SS - Glow Testimonial",
+      "settings": {
+        "animation_time": 30,
+        "loop_amount": 2,
+        "header_before_gradient": "Our customers",
+        "header_gradient": "love",
+        "header": "the product",
+        "header_color": "#0B1128",
+        "header_font_size": 42,
+        "header_mob_font_size": 28,
+        "review_font_size": 16,
+        "review_font_color": "#0B1128",
+        "gradient_color_1": "#4222DE",
+        "gradient_color_2": "#659BFF",
+        "gradient_color_3": "#7FF6E8",
+        "blur_color": "#B8B1DC",
+        "background-color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "faq_bYyD9M": {
@@ -803,6 +878,7 @@
     "tabs_LbzkeK",
     "rich_text_BXrJe8",
     "slidervideo_R6BCKp",
+    "ss_glow_testimonial_dyVtrc",
     "faq_bYyD9M"
   ]
 }
