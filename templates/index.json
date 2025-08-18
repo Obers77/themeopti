@@ -614,7 +614,7 @@
         "slide_He8UzL": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/UGC 1.mp4",
+            "video": "shopify://files/videos/ugc 3.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
             "stars_count": 5
@@ -674,7 +674,7 @@
         "action_border_thickness": 0,
         "use_sound": true,
         "sound_size": 40,
-        "sound_size_mobile": 20,
+        "sound_size_mobile": 40,
         "sound_icon_size": 24,
         "sound_icon_size_mobile": 24,
         "sound_border_thickness": 0,
