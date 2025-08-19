@@ -207,6 +207,19 @@
             "link_style": "link"
           }
         },
+        "item_md4PUE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Capture_d_ecran_2025-08-17_234523.png",
+            "column_size": "3",
+            "title": "Tony H.",
+            "heading_tag": "h4",
+            "content": "<p><em>\"Entre la poussière, les feuilles et les saletés qui reviennent tout le temps, j’en avais marre de passer mon temps à nettoyer dehors. Ce souffleur, c’est devenu mon réflexe. Léger, sans fil, prêt en 2 secondes. Même pieds nus en plein soleil, je fais le boulot sans transpirer. Franchement, c’est le genre d’outil qui te simplifie la vie.\"</em></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_RP4Jw3": {
           "type": "item",
           "settings": {
@@ -215,19 +228,6 @@
             "title": "Amandine D.",
             "heading_tag": "h4",
             "content": "<p><em>\"Franchement, je ne pensais pas qu’un souffleur pouvait autant me simplifier la vie. Il est léger, silencieux et hyper pratique. En quelques minutes, ma terrasse est nickel, le garage aussi. Même les enfants veulent s’en servir ! Je recommande à 100 %\"</em></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_YYGBwX": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2025-08-17_235410.png",
-            "column_size": "3",
-            "title": "Nicolas S.",
-            "heading_tag": "h4",
-            "content": "<p><em>\"Quand il fait chaud comme ça, t’as zéro envie de passer ton temps à balayer. J’étais déjà en sueur, et je devais encore nettoyer… Ce souffleur m’a vraiment simplifié la vie. Je l’allume, un coup de poignet, et c’est propre. Rapide, léger, pas besoin de forcer. Un vrai gain d’énergie\"</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -246,14 +246,14 @@
             "link_style": "link"
           }
         },
-        "item_md4PUE": {
+        "item_YYGBwX": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2025-08-17_234523.png",
+            "image": "shopify://shop_images/Capture_d_ecran_2025-08-17_235410.png",
             "column_size": "3",
-            "title": "Tony H.",
+            "title": "Nicolas S.",
             "heading_tag": "h4",
-            "content": "<p><em>\"Entre la poussière, les feuilles et les saletés qui reviennent tout le temps, j’en avais marre de passer mon temps à nettoyer dehors. Ce souffleur, c’est devenu mon réflexe. Léger, sans fil, prêt en 2 secondes. Même pieds nus en plein soleil, je fais le boulot sans transpirer. Franchement, c’est le genre d’outil qui te simplifie la vie.\"</em></p>",
+            "content": "<p><em>\"Quand il fait chaud comme ça, t’as zéro envie de passer ton temps à balayer. J’étais déjà en sueur, et je devais encore nettoyer… Ce souffleur m’a vraiment simplifié la vie. Je l’allume, un coup de poignet, et c’est propre. Rapide, léger, pas besoin de forcer. Un vrai gain d’énergie\"</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -262,10 +262,10 @@
       },
       "block_order": [
         "item_xt3kyW",
+        "item_md4PUE",
         "item_RP4Jw3",
-        "item_YYGBwX",
         "item_e3CrYh",
-        "item_md4PUE"
+        "item_YYGBwX"
       ],
       "name": "Multi-column",
       "settings": {
