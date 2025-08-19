@@ -310,6 +310,14 @@
             "product": "{{section.settings.product}}"
           }
         },
+        "image_78Pkz8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/offre.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "buy_buttons_NRPmim": {
           "type": "buy_buttons",
           "settings": {
@@ -347,6 +355,7 @@
         "title_ttFqMG",
         "liquid_kDARrr",
         "kaching_bundles_app_block_xzV87P",
+        "image_78Pkz8",
         "buy_buttons_NRPmim",
         "liquid_TJhNdA",
         "image_NEUTeN",
